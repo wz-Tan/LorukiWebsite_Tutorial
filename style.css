@@ -65,7 +65,7 @@ img{
 }
 
 .showcase p{
-    margin: 20px 0;
+    margin: 50px 0;
 }
 
 .showcase .grid{
@@ -103,6 +103,22 @@ img{
 
 .showcase-form input:focus{
     outline: 0;
+}
+
+.showcase::before,
+.showcase::after{
+    content: "";
+    position: absolute;
+    height:100px;
+    bottom: -70px;
+    right: 0;
+    left: 0;
+    background-color: white;
+    transform: skewY(-3deg);
+    /* Skew For Different Browsers */
+    -moz-transform: skewY(-3deg);
+    -ms-transform: skewY(-3deg);
+    -webkit-transform: skewY(-3deg);
 }
 
 /*Utilities - Reusable Components*/
