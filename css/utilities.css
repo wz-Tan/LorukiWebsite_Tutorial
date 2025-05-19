@@ -72,10 +72,67 @@
     transition: ease-in-out 0.15s;
 }
 
+/* Backgrounds and Coloured Buttons */
+.bg-primary,
+.btn-primary{
+    color: #fff;
+    background-color: var(--primary-color);
+}
+
+.bg-secondary,
+.btn-secondary{
+    color: #fff;
+    background-color: var(--secondary-color);
+}
+
+.bg-light,
+.btn-light{
+    color: #333;
+    background-color: var(--light-color);
+}
+
+.bg-dark,
+.btn-dark{
+    color: #fff;
+    background-color: var(--dark-color);
+}
+
+
+.bg-primary a,
+.btn-primary a,
+.bg-secondary a,
+.btn-secondary a,
+.bg-dark a,
+.btn-dark a{
+    color: #fff;
+} 
+
+
 .grid-3{
     grid-template-columns: repeat(3,1fr);
 }
 
+
+/* Text Sizes */
+.lead{
+    font-size: 20px;
+}
+
+.sm{
+    font-size: 1rem;
+}
+
+.md{
+    font-size: 2rem;
+}
+
+.lg{
+    font-size: 3rem;
+}
+
+.xl{
+    font-size: 4rem;
+}
 .text-center{
     text-align: center;
 }
