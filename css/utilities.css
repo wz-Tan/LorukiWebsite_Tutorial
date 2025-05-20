@@ -107,6 +107,22 @@
     color: #fff;
 } 
 
+/* Text Colours */
+.text-primary{
+    color: var(--primary-color);
+}
+
+.text-secondary{
+    color: var(--secondary-color);
+}
+
+.text-light{
+    color: var(--light-color);
+}
+
+.text-dark{
+    color: var(--dark-color);
+}
 
 .grid-3{
     grid-template-columns: repeat(3,1fr);
@@ -133,8 +149,32 @@
 .xl{
     font-size: 4rem;
 }
+
 .text-center{
     text-align: center;
+}
+
+
+/* Alert */
+.alert{
+    background-color: var(--light-color);
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.alert i{
+    margin-right: 10px;
+}
+
+.alert-success{
+    background-color: var(--success-color);
+    color: #fff;
+}
+
+.alert-error{
+    background-color: var(--error-color);
+    color: #fff;
 }
 
 
